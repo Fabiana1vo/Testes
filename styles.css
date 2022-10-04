@@ -1,0 +1,560 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0; 
+}
+
+html{
+    scroll-behavior: smooth;
+ }
+
+body {
+    width: 100%;
+     
+}
+
+
+
+ 
+/* ======================= Navbar =======================*/
+
+
+
+ 
+.logo{
+    padding-left: 50px;
+}
+
+#navbarNavAltMarkup
+{
+    justify-content: flex-end;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-right: 40px;
+ 
+}
+
+ 
+
+.nav-item:hover
+{
+     color: #c65eca !important;
+}
+
+.logo img {
+    width: 60px;
+    margin-left:10px;
+     cursor: pointer;
+}
+
+
+ .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+ 
+    color: #AB39AE;
+ }
+
+.menu li a:hover {
+
+    color: #c65eca;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+#btn-mobile {
+    display: none;
+}
+
+/* ======================= Fim Navbar =======================*/
+
+/* ======================= Section 1 =======================*/
+
+
+.carousel {
+ 
+    max-height: 75vh;
+    display: flex;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    z-index: 999;
+      
+}
+
+
+#content-1 {
+    align-items: center;
+    padding: 10rem 1rem;
+    margin: 0 60px;
+}
+
+
+
+h4,
+p {
+    color: #555555;
+}
+
+
+h4 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+h1 {
+    color: #AB39AE;
+    font-weight: 600;
+    font-size: 1.5em;
+
+}
+
+
+.btn {
+    background: #FFD017;
+    color: #AB39AE;
+    font-weight: 800;
+    border: transparent;
+    padding: 10px 20px;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    background: #AB39AE;
+    color: #fff;
+    overflow: hidden;
+}
+
+.mobile-img {
+    display: none;
+}
+
+
+
+/* ============================= BANDEIRAS ==================================== */
+
+.bandeiras
+{
+ 
+    align-items: center;
+    text-align: center;
+    background-color: #EFF4F8;
+    padding: 20px 0px;
+}
+
+.bandeiras img{
+    
+    width: 200px;
+    margin-top: -20px;
+}
+
+ 
+/* ============================= FIM BANDEIRAS ==================================== */
+
+/* ============================= SECTION 3  ==================================== */
+
+.taxas
+{
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: 100%;
+ } 
+
+ 
+ .section-taxas h1{
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+ 
+ 
+  .header-title-1 P{
+    
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: #32A8D3 !important;
+ 
+  }
+
+ 
+  span{
+    color: #32A8D3;
+  }
+
+ 
+
+.flex
+{
+    display: flex;
+ 
+}
+
+.flex img{
+    width: 60px;
+    height: 60px;	
+    
+}
+
+
+.section-taxas p
+{
+    padding: 0px 10px;
+    margin-top: 10px;
+}
+
+.pos-woman img
+{
+    width: 100%;
+}
+
+
+
+.img-mobile
+{
+    display: none;
+}
+
+.subtitle-mobile
+{
+    display: none;
+}
+
+
+/* ============================================final da SECTION 03================================ */ 
+
+/* ============================================SECTION Equipamentos ================================ */
+
+.section-four
+{
+  
+    height: auto;
+    margin-top: 50px;
+    align-items: center;
+    margin-bottom: 40px;
+    border: solid 1px red;
+    background-color:#fff;
+ }
+  
+
+.section-four-container
+{
+    background-color:transparent;
+}
+
+
+.section-four h1
+{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #AB39AE;
+}
+  
+ 
+ .card-body ul {
+    /* list-style-image: url('/img/check.png'); */
+ 
+    list-style-image: url("/img/check.png");
+    padding: 10px;
+
+ 
+ }
+ 
+
+ .card-body P
+ {
+     color: black;
+ }
+
+ .card-body h5
+{
+    color: #32A8D3;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+
+
+ /* ============================================INICIO SECTION MOCKUP ================================ */
+
+
+ .mockup
+ {
+    height: auto;
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    margin-top: 3vh;
+    margin-bottom: 10vh;
+ 
+ }
+
+
+ .mockup h1
+ {
+ 
+    height: auto;
+    display: flex;
+    font-size: 2em;
+  
+ }
+
+ .mockup p
+ {
+ 
+    height: auto;
+    display: flex;
+     color: #555555;
+ 
+ }
+ 
+
+ .text-phone
+ { 
+    align-items: center;
+    margin:auto;
+
+ 
+ }
+ 
+ .mockup img
+ {
+        width: 115%;
+     }
+
+ 
+ /* ============================================FIM SECTION MOCKUP ================================ */
+
+ .card
+    {
+    align-items: center;
+    justify-content: center;
+    border: transparent;
+    
+    }
+
+
+
+
+    
+.funciona {
+     height: auto;
+     
+     margin-top: 3vh;
+ 
+}
+
+.funciona h1
+{
+    color:#AB39AE;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+.funciona h5
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:#AB39AE;
+    font-size: 1.3rem;
+    text-align: center;
+
+}
+
+.funciona p 
+{
+    color: #555555;
+    font-size: 1rem;
+}
+
+
+.items
+{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+ 
+}
+
+
+
+
+
+
+/*MEDIA*/
+
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+    
+.logo img
+    { 
+    width: 50px;
+    }
+
+.logo{
+    padding: 0;
+    display: flex;
+  }
+
+  .bandeiras
+  {
+   
+      align-items: center;
+      text-align: center;
+      background-color: #EFF4F8;
+      padding: 20px 0px;
+  }
+
+    .bandeiras img{
+        
+        width: 100px;
+        margin-top: -20px;
+    }
+
+    #navbarNavAltMarkup
+    {
+        padding:5px;
+    }
+
+    .bandeiras h1{
+        font-size:1.3em;
+    }
+
+    .bandeiras p{
+        font-size:.8em;
+    }
+/*SECTION TAXAS*/
+
+.taxas
+{
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: 100%;
+ } 
+
+
+ p
+ {
+    font-size: 0.8em;
+  }
+
+
+ 
+
+ 
+ .header-title-1 h1
+{
+ 
+   font-size: 1.5em;
+} 
+
+
+
+.flex img
+{
+    width: 45px;
+    height: 45px;
+}
+
+.flex p
+{
+ margin-top:5px;
+}
+
+
+.pos-woman
+{
+    display: none;
+}
+   
+.img-mobile{
+    display: flex;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+
+.items
+{
+    display: flex;
+    justify-content: center;
+    gap: 0rem;
+ 
+}
+}
+
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+
+    .container {
+        max-width: none; 
+    }
+
+ 
+
+.flex  p
+{
+   margin-top:0;
+}
+ 
+ 
+ #taxas h1
+ {
+    font-size: 1.5em;
+ }
+
+ .mockup img
+ {
+        width: 100%;
+     }
+
+
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {   
+
+#taxas
+{
+   border: solid 2px greenyellow;
+ }
+ 
+ #taxas h1
+ {
+font-size: 1.5em;
+ }
+
+.flex  img
+{
+    width: 50px;
+    height: 50px;
+
+}
+
+.flex  p
+{
+   margin-top:0;
+}
+
+.container {
+    max-width: none; 
+}
+
+.mockup img
+{
+       width: 100%;
+    }
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) { ... }
+
+ 

@@ -340,8 +340,7 @@ h1 {
     
 .funciona {
      height: auto;
-     
-     margin-top: 3vh;
+        
  
 }
 
@@ -531,6 +530,13 @@ h1 {
     text-align: center;
 }
 
+.mockup {
+     align-items: center;
+    margin-top: 0vh;
+    margin-bottom: 10vh;
+
+}
+
 .mockup h1
 {
     font-size: 20px;
@@ -582,8 +588,7 @@ h1 {
 
 #taxas
 {
-   border: solid 2px greenyellow;
- }
+  }
  
  #taxas h1
  {

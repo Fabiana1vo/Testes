@@ -570,7 +570,7 @@ footer
 {
     font-size: 20px;
     text-align: center;
-    margin-bottom: 13px;
+    margin-bottom: 10px;
     margin-top: none;
 }
 
@@ -620,8 +620,10 @@ footer
          font-size: 20px;
         font-style: normal;
          margin-bottom: 13px;
+         margin-top: 30px;
         text-align: center;
         width: 100%;
+
      }
 
      .mockup p {
@@ -684,7 +686,7 @@ footer
  }
 
  .mockup p {
-    color: #777;
+    color: rgb(9, 8, 8);
     font-family: Montserrat;
     font-size: 12px;
     font-style: normal;
@@ -693,8 +695,6 @@ footer
     text-align: center;
     width: 100%;
 }
-
-
 
 
 }
@@ -711,14 +711,13 @@ footer
  
  #taxas h1
  {
-font-size: 1.5em;
+font-size: 1.2em;
  }
 
 .flex  img
 {
     width: 50px;
     height: 50px;
-
 }
 
 .flex  p
@@ -728,8 +727,7 @@ font-size: 1.5em;
 
 .container {
     max-width: none; 
-    border: solid 1px red;
-}
+ }
 
 .mockup img
 {
@@ -737,8 +735,25 @@ font-size: 1.5em;
     }
 
 
+    .mockup
+    {
+        background-color: #EDF7FC;
+        min-height: 40vh;
+        display: flex;
+    }
+ 
+    .mockup h1
+    {
+        font-size: 1.5em;
+        text-align: center;
+       padding: 50px 15px 0px 0px;
+     }
+    .mockup p
+    {
+       color: black;
+       text-align: center;
 
-
+    }
 
 }
 

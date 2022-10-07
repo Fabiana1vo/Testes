@@ -4,18 +4,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" type="image/png" href="logo_pagpos.png">
+  <link rel="shortcut icon" type="image/png" href="/laravel/public/img/logo_pagpos.png">
 
  
   <title> @yield ('title')</title>
 
-  <link rel="icon" type="image/png" href="logo_pagpos.png"/>
+  <link rel="icon" type="image/png" href="/laravel/public/img/logo_pagpos.png"/>
 
-   <!-- Fonte do Google -->
+  <!-- Fonte do Google -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;700&display=swap" rel="stylesheet">
 
@@ -24,7 +24,7 @@
 
 
   <!-- Css da aplicação -->
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="/css/styles.css">
 
   <!-- JS BOOTSTRAP -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -51,7 +51,7 @@
 
 <header> 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-<div class="logo">  <a href="#inicio"> <img src="logo_pagpos.png" alt=""></a></div>
+<div class="logo">  <a href="#inicio"> <img src="/img/logo_pagpos.png" alt=""></a></div>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span> </button>
 
@@ -61,8 +61,8 @@
     <div class="navbar-nav">
       <a class="nav-item nav-link active" href="#inicio">Inicio <span class="sr-only">(current)</span></a>
       <a class="nav-item nav-link active" href="#taxas">Taxas</a>
-      <a class="nav-item nav-link active" href="#">Equipamentos</a>
-      <a class="nav-item nav-link active" href="#">Pagamento</a>
+      <a class="nav-item nav-link active" href="#Como-funciona">Como funciona</a>
+      <a class="nav-item nav-link active" href="https://pagamentos.pagpos.com.br/" target="_blank" rel="noopener noreferrer">Pagamento</a>
       <a class="nav-item nav-link active" href="#">Sobre</a>
 
   </div>
@@ -85,13 +85,13 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-     <a href="https://getbootstrap.com/docs/4.1/components/carousel/"> <img class="d-block w-100" src="800x1020.jpg" alt="First slide"></a>
+     <a href="https://getbootstrap.com/docs/4.1/components/carousel/"> <img class="d-block w-100" src="img/800x1020.jpg" alt="First slide"></a>
     </div>
     <div class="carousel-item">
-    <a href="https://getbootstrap.com/docs/4.1/components/carousel/"> <img class="d-block w-100" src="800x1020.jpg" alt="Second slide"></a>
+    <a href="https://getbootstrap.com/docs/4.1/components/carousel/"> <img class="d-block w-100" src="img/800x1020.jpg" alt="Second slide"></a>
     </div>
     <div class="carousel-item">
-    <a href="https://getbootstrap.com/docs/4.1/components/carousel/">  <img class="d-block w-100" src="800x1020.jpg" alt="Third slide"> </a>
+    <a href="https://getbootstrap.com/docs/4.1/components/carousel/">  <img class="d-block w-100" src="img/800x1020.jpg" alt="Third slide"> </a>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -114,7 +114,7 @@
 <div class="container-fluid bandeiras">
   <h1> Aceite as principais bandeiras </h1>
   <p> Bandeiras habilitadas para Pessoa Física e Pessoa Jurídica </p>
-  <img src="/bandeirascartoes.png" alt="">
+  <img src="/img/bandeirascartoes.png" alt="">
 </div>
 
 
@@ -132,18 +132,18 @@
   <h5>Nossos Preços</h5>
 <div class="row no-gutters"> 
 
-<img class="img-mobile" src="/mobile-pos.png">
+<img class="img-mobile" src="/img/mobile-pos.png">
 
 <div class="col-sm-6 col-md-6 taxas-items">
 
   <h1>Aqui as taxas são <br> personalizadas</h1>
   
   <div class="col-one">
-    <img src="/icon-rate.png" alt="">
+    <img src="/img/icon-rate.png" alt="">
     <p>Nossas taxas são personalizadas de <br> acordo com o seu seguimento.</p>
   </div>
   <div class="col-one" id="pos">
-    <img src="/icon-pos.png" alt="">
+    <img src="/img/icon-pos.png" alt="">
     <p>Nossas maquininhas são feitas para <br> empreendedores (PF) e empresas. <br> E o melhor de tudo, não tem taxa de adesão.</p>
   </div>
 
@@ -151,7 +151,7 @@
   
 </div>
   <div class="col-12 col-md-6 pos-woman">
-  <img src="/nana2.png" alt="">
+  <img src="/img/nana2.png" alt="">
   </div>
 </div>
 
@@ -163,11 +163,12 @@
 <p class="subtitle-mobile">como funcionam nossos preços?</p>
 
 
-  <div class=" ">
+
+  <div>
 
   <div class="header-title-1">
     <p class="subtitle-1">como funcionam nossos preços?</p>
-    <img class="img-mobile " src="/mobile-pos.png">   
+    <img class="img-mobile " src="mobile-pos.png">   
 
     <h1>Aqui o <span> aluguel é zero</span>, e as taxas são personalizadas</h1>
   </div>
@@ -177,13 +178,13 @@
                   <p>Nossas taxas são  personalizadas de acordo com o seu seguimento </p>
               </div>
               <div class="flex">
-                  <img src="/icon-pos.png" alt="">
+                  <img src="icon-pos.png" alt="">
                   <p>Nossas maquininhas são feitas para   empreendedores e empresas.  E o melhor de tudo, <b>  não tem taxa de adesão</b></p>
               </div>
 
   </div>
   
-  <div class="col-md-6 pos-woman"> <img src="/nana2.png" alt=""> </div>
+  <div class="col-md-6 pos-woman"> <img src="nana2.png" alt=""> </div>
 
 
 
@@ -214,15 +215,20 @@
 
 <!-- ================================= SECTION FOUR ================================= -->
    
- <section class="container funciona">
+ <section class="container-fluid funciona" id="Como-funciona">
 
-<h1> Como funciona </h1>
+
+<h1> Como funciona 
+<div class="container-fluid divider">
+<hr class="is-mobile">
+</h1>
+
 
 <div class="items row">
 <div class="card text-center" style="width: 20rem;">
 
   <div class="card-body">
-  <img src="/payment-1.svg" width="250px">
+  <img src="contact-us.svg" width="230px">
 
     <h5 class="card-title">Entre em contato</h5>
     <p class="card-text">Basta preencher o formulário com as informações do seu negócio. E você receberá o contato de um de nossos consultores que te ajudará em todo o processo!</p>
@@ -234,7 +240,7 @@
 
 <div class="card text-center" style="width: 20rem;">
   <div class="card-body">
-  <img src="/payment-2.svg" width="250px">
+  <img src="correio.svg" width="230px">
 
 
     <h5 class="card-title">Receba a maquininha</h5>
@@ -247,14 +253,13 @@
 
 <div class="card text-center" style="width: 20rem;">
   <div class="card-body">
-  <img src="/payment-3.svg" style="width:250px;">
+  <img src="venda.svg" style="width:224px;">
 
 
-    <h5 class="card-title">E comece a vender</h5>
-    <p class="card-text">Depois de finalizar sua solicitação, você receberá a POS e acesso ao painel de gestão. Pronto! Sua operação estará pronta para vender e monitorar os resultados em tempo real.</p>
+    <h5 class="card-title">Comece a vender</h5>
+    <p class="card-text">Depois de finalizar sua solicitação, você receberá a POS e acesso ao painel de gestão. Pronto! Sua operação estará pronta para vender e monitorar os resultados.</p>
   </div>  
 </div>  
-</div>
 </div>
  
 </section>
@@ -268,21 +273,22 @@
 <!-- ================================= SECTION FIVE ================================= -->
 
  
+<div class="container-fluid ex">
  <section class="container mockup">
 
 <div class="row items-mockup">
   <div class="col-md-6 col-sm-6 text-phone" >
     <h1>Um sistema completo para você gerenciar as suas vendas</h1>
-    <p>Imagine saber exatamente o que foi vendido em tempo real de onde você estiver? Com a PagPós você tem um painel de gestão completo para acompanhar suas vendas.</p>
+     <p>Imagine saber exatamente o que foi vendido em tempo real de onde você estiver? Com a PagPós você tem um painel de gestão completo para acompanhar suas vendas.</p>
   </div>
 
   <div class="col-md-6" >
-    <img src="/nana.png">
+    <img src="nana.png">
   </div>
 
   
 </div>
-
+</div>
 </section>  
  
 
@@ -293,13 +299,17 @@
 <section class="container-fluid section-four">
 
 <div class="container section-four-container"> 
-  <h1>Nossos equipamentos</h1> 
-
+  
+  <h1> Nossos equipamentos  
+<div class="container-fluid divider">
+<hr class="is-mobile">
+</h1>
+</div>
 
 <!--   
   <div class="card-group">
   <div class="card">
-    <img class="card-img-top" src="/a910.png" alt="Imagem de capa do card" style="width:91%;">
+    <img class="card-img-top" src="/img/a910.png" alt="Imagem de capa do card" style="width:91%;">
     <div class="card-body">
       <h5 class="card-title">A910</h5>
       <p class="card-text">
@@ -314,7 +324,7 @@
      </div>
   </div>
   <div class="card">
-    <img class="card-img-top" src="D195.png" alt="Imagem de capa do card">
+    <img class="card-img-top" src="/img/D195.png" alt="Imagem de capa do card">
     <div class="card-body">
       <h5 class="card-title">D195</h5>
       <p class="card-text">
@@ -329,7 +339,7 @@
      </div>
   </div>
   <div class="card">
-    <img class="card-img-top" src="s920.png" alt="Imagem de capa do card">
+    <img class="card-img-top" src="/img/s920.png" alt="Imagem de capa do card">
     <div class="card-body">
       <h5 class="card-title">S920</h5>
       <p class="card-text">

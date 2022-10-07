@@ -3,6 +3,7 @@
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0; 
+ 
 }
 
 html{
@@ -80,8 +81,7 @@ body {
     box-sizing: border-box;
     width: 100%;
     z-index: 999;
-      
-}
+ }
 
 
 #content-1 {
@@ -110,6 +110,24 @@ h1 {
 
 }
 
+.divider
+{
+     align-items: center;
+    justify-content: center;
+    display: flex;
+ 
+
+} 
+ 
+hr {
+    border: 0;
+    border-bottom: 2px solid rgb(34, 200, 200);
+    width: 120px;
+    padding-top: 0;
+    margin-top: 10px;
+    border-width: 4px;
+}
+    
 
 .btn {
     background: #FFD017;
@@ -234,8 +252,7 @@ h1 {
     align-items: center;
     margin-bottom: 40px;
     border: solid 1px red;
-    background-color:#9224BB;
- }
+  }
   
 
 .section-four-container
@@ -249,7 +266,7 @@ h1 {
     font-size: 2em;
     text-align: center;
     margin-bottom: 50px;
-    color: #FFF;
+    color: #9224BB;
     font-weight: 400;
 }
   
@@ -284,32 +301,40 @@ h1 {
  .mockup
  {
     height: auto;
+    min-height:80vh;
     display: flex;
     align-items: center;
-    margin-top: 3vh;
+    margin-top: 8vh;
     margin-bottom: 10vh;
- 
+    background-color: #EDF7FC;
+    border-radius: 50px;
+    top:0;
  }
 
-
+ 
+ 
+ 
  .mockup h1
  {
- 
+    padding: 0px 15px;
     height: auto;
     display: flex;
     font-size: 2em;
   
  }
 
+ 
+
  .mockup p
  {
- 
-    height: auto;
-    display: flex;
+    padding: 0px 15px;
+     height: auto;
+     display: flex;
      color: #555555;
- 
+     font-family: 'Montserrat', sans-serif;
+
  }
- 
+
 
  .text-phone
  { 
@@ -318,14 +343,13 @@ h1 {
 
  
  }
- 
+  
  .mockup img
  {
         width: 115%;
+        padding: 0px 30px;
      }
-
- 
- /* ============================================FIM SECTION MOCKUP ================================ */
+ /* ============================================ FIM SECTION MOCKUP ================================ */
 
  .card
     {
@@ -339,8 +363,7 @@ h1 {
     
 .funciona {
      height: auto;
-        
- 
+
 }
 
 .funciona h1
@@ -379,7 +402,10 @@ h1 {
 
 
 
-
+footer 
+{
+    text-align: center;
+}
 
 
 /*MEDIA*/
@@ -387,11 +413,16 @@ h1 {
 /* Landscape phones and down */
 @media (max-width: 480px) { 
     
+    #inicio{
+        margin-top: 10vh;
+    }
+   
 .logo img
     { 
     width: 50px;
     }
 
+    
 .logo{
     padding: 0;
     display: flex;
@@ -529,8 +560,9 @@ h1 {
 
 .mockup {
      align-items: center;
-    margin-top: -2vh;
+    margin-top: -0vh;
     margin-bottom: 10vh;
+    min-height: 55vh;
 
 }
 
@@ -538,7 +570,8 @@ h1 {
 {
     font-size: 20px;
     text-align: center;
-     margin-bottom: 13px;
+    margin-bottom: 13px;
+    margin-top: none;
 }
 
 .mockup p
@@ -557,11 +590,9 @@ h1 {
 
     .container {
         max-width: none; 
-    }
+     }
 
- 
-
-.flex  p
+ .flex  p
 {
    margin-top:0;
 }
@@ -572,17 +603,108 @@ h1 {
     font-size: 1.5em;
  }
 
- .mockup img
+
+ .mockup
  {
+    margin-top: 10vh;
+ }
+ .mockup img
+     {
+        width: 100%;
+        padding: 0px 0px;
+     }
+
+     .mockup h1{
+ 
+        color: #9224BB;
+         font-size: 20px;
+        font-style: normal;
+         margin-bottom: 13px;
+        text-align: center;
         width: 100%;
      }
+
+     .mockup p {
+        color: #777;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 15px;
+        text-align: center;
+        width: 100%;
+    }
+
+
+
+
+    
+.funciona{
+    padding: 30px;
+}
+
+.funciona p{
+   color: #777;
+   font-family: Montserrat;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 18px;
+   text-align: center;
+}
+
+.funciona h1{
+    font-size: 1.5em;
+   margin-bottom: 20px;
+}
+
+.funciona h5
+{
+   color: #9224BB;
+    font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 20px;
+   margin-bottom: 8px;
+   text-align: center;
+}
+
+
+
+
+
+.section-four-container h1{
+ 
+    color: #9224BB;
+     font-size: 20px;
+    font-style: normal;
+     margin-bottom: 13px;
+    text-align: center;
+    width: 100%;
+ }
+
+ .mockup p {
+    color: #777;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+
 
 
 }
 
+
+
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {   
 
+     
 #taxas
 {
   }
@@ -606,6 +728,7 @@ font-size: 1.5em;
 
 .container {
     max-width: none; 
+    border: solid 1px red;
 }
 
 .mockup img
@@ -613,9 +736,14 @@ font-size: 1.5em;
        width: 100%;
     }
 
+
+
+
+
 }
 
+
 /* Large desktop */
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) {  }
 
  

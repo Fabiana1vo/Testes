@@ -39,6 +39,17 @@
 <!-- JQUERY  -->
 <script src="https://code.jquery.com/jquery-3.6.1.slim.js" integrity="sha256-tXm+sa1uzsbFnbXt8GJqsgi2Tw+m4BLGDof6eUPjbtk=" crossorigin="anonymous"></script>
 
+<!-- Scroll Reveal -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+
+<!-- POP MOTION -->
+<script src="https://unpkg.com/popmotion/dist/popmotion.global.min.js"></script>
+
+
+<!-- Michael s -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </head>
 
@@ -225,41 +236,39 @@
 
 
 <div class="items row">
+
+<!-- Primeiro Card -->
 <div class="card text-center" style="width: 20rem;">
-
-  <div class="card-body">
-  <img src="contact-us.svg" width="230px">
-
+  <div class="card-body" id="card-body" data-aos="fade-up">
+  <img src="/img/contact-us.svg" width="230px">
     <h5 class="card-title">Entre em contato</h5>
     <p class="card-text">Basta preencher o formulário com as informações do seu negócio. E você receberá o contato de um de nossos consultores que te ajudará em todo o processo!</p>
   </div>
   
 </div>
 
-
+<!-- Penultimo Card -->
 
 <div class="card text-center" style="width: 20rem;">
-  <div class="card-body">
-  <img src="correio.svg" width="230px">
-
-
+  <div class="card-body " id="card-body"  data-aos="fade-up">
+  <img src="/img/correio.svg" width="230px" class="
+  ">
     <h5 class="card-title">Receba a maquininha</h5>
     <p class="card-text">Basta preencher o formulário com as informações do seu negócio. E você receberá o contato de um de nossos consultores que te ajudará em todo o processo!</p>
   </div>
 </div>
 
 
-
+<!-- Ultimo card -->
 
 <div class="card text-center" style="width: 20rem;">
-  <div class="card-body">
-  <img src="venda.svg" style="width:224px;">
-
-
+  <div class="card-body" id="card-body"  data-aos="fade-up">
+  <img src="/img/venda.svg" style="width:224px;">
     <h5 class="card-title">Comece a vender</h5>
     <p class="card-text">Depois de finalizar sua solicitação, você receberá a POS e acesso ao painel de gestão. Pronto! Sua operação estará pronta para vender e monitorar os resultados.</p>
   </div>  
 </div>  
+
 </div>
  
 </section>
@@ -384,6 +393,17 @@
  End of estbank Zendesk Widget script -->
  
 
+  
+  <script> 		ScrollReveal().reveal('.headline');
+        ScrollReveal().reveal('.headline');
+        ScrollReveal().reveal('.tagline', { delay: 600 });
+        ScrollReveal().reveal('.punchline', { delay: 900 });
+
+
+
+</script>
+  
+  
 </body>
 
 </html>
